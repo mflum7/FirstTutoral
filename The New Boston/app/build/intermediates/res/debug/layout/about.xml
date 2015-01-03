@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Michael is the most blessed person I know. He is hard working and diligent. If you like his app, then send him a boat load of money. He will love you for it.
+    " />
+    
+   </LinearLayout>
+<!-- From: file:/C:/Users/SEOMarketing/AndroidstudioProjects/The%20New%20Boston/app/src/main/res/layout/about.xml -->

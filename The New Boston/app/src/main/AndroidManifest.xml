@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.thenewboston.michael"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="8" >
+    </uses-sdk>
+
+    <uses-permission android:name="android.permission.SET_WALLPAPER" >
+    </uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.thenewboston.michael.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.thenewboston.michael.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.thenewboston.michael.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.thenewboston.michael.Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.thenewboston.michael.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.thenewboston.michael.AboutUs"
+            android:label="@string/app_name" 
+            android:theme="@android:style/Theme.Dialog">
+            <intent-filter>
+                <action android:name="com.thenewboston.michael.ABOUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.thenewboston.michael.TextPlay"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.thenewboston.michael.Email"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.thenewboston.michael.Camara"
+            android:label="Camara Application"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.thenewboston.michael.TutorialOne"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.thenewboston.michael.Data"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.thenewboston.michael.OpenedClass"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>

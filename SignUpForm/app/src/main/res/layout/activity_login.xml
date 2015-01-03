@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:id="@+id/username_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="25"
+            android:id="@+id/username"
+            android:text="@string/username"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_weight="75"
+            android:id="@+id/eText"
+            android:hint="@string/username_hint"
+            android:layout_toRightOf="@+id/username"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/password_field"
+        android:layout_below="@+id/username_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="25"
+            android:id="@+id/password"
+            android:text="@string/password"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_weight="75"
+            android:id="@+id/password_field_hint"
+            android:hint="@string/password_hint"
+            android:layout_toRightOf="@+id/password"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/re_enter_field"
+        android:layout_below="@+id/password_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="25"
+            android:id="@+id/re_enter"
+            android:text="@string/re_enter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_weight="75"
+            android:id="@+id/re_enter_hint"
+            android:hint="@string/re_enter_hint"
+            android:layout_toRightOf="@+id/re_enter_field"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_below="@+id/re_enter_field"
+        android:layout_alignEnd="@+id/re_enter_field"
+        android:text="@string/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

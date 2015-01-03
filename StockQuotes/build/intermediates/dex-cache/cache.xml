@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\SEOMarketing\AndroidstudioProjects\StockQuotes\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-275d09435422be2a752337adc0da0e9a26c251b2.jar"
+        jar="C:\Users\SEOMarketing\AndroidstudioProjects\StockQuotes\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\libs\internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0"/>
+    <item
+        dex="C:\Users\SEOMarketing\AndroidstudioProjects\StockQuotes\app\build\intermediates\pre-dexed\debug\classes-e8607bbc48174b4cd6b101b169d9f4d5990de7d2.jar"
+        jar="C:\Users\SEOMarketing\AndroidstudioProjects\StockQuotes\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6"/>
+    <item
+        dex="C:\Users\SEOMarketing\AndroidstudioProjects\StockQuotes\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.0-c2834b0eaa54517d5771c55110c1b5c5b5a288dd.jar"
+        jar="C:\Users\SEOMarketing\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e"/>
+
+</pre-dex-items>

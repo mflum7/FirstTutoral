@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="21.0.0" >
+        <source path="C:\Users\SEOMarketing\AndroidstudioProjects\StockQuotes\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\res" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="C:\Users\SEOMarketing\AndroidstudioProjects\StockQuotes\app\src\main\res" >
+            <file
+                name="ic_launcher"
+                path="C:\Users\SEOMarketing\AndroidstudioProjects\StockQuotes\app\src\main\res\drawable-hdpi\ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\SEOMarketing\AndroidstudioProjects\StockQuotes\app\src\main\res\drawable-mdpi\ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\SEOMarketing\AndroidstudioProjects\StockQuotes\app\src\main\res\drawable-xhdpi\ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\SEOMarketing\AndroidstudioProjects\StockQuotes\app\src\main\res\drawable-xxhdpi\ic_launcher.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="activity_main"
+                path="C:\Users\SEOMarketing\AndroidstudioProjects\StockQuotes\app\src\main\res\layout\activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_stock_info"
+                path="C:\Users\SEOMarketing\AndroidstudioProjects\StockQuotes\app\src\main\res\layout\activity_stock_info.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="stock_quote_row"
+                path="C:\Users\SEOMarketing\AndroidstudioProjects\StockQuotes\app\src\main\res\layout\stock_quote_row.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="C:\Users\SEOMarketing\AndroidstudioProjects\StockQuotes\app\src\main\res\menu\main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="stock_info"
+                path="C:\Users\SEOMarketing\AndroidstudioProjects\StockQuotes\app\src\main\res\menu\stock_info.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="C:\Users\SEOMarketing\AndroidstudioProjects\StockQuotes\app\src\main\res\values\colors.xml"
+                qualifiers="" >
+                <color name="egg_shell" >#F0EAD6
+                </color>
+                <color name="aero_blue" >#7CB9E8
+                </color>
+                <color name="black" >#000000
+                </color>
+            </file>
+            <file
+                path="C:\Users\SEOMarketing\AndroidstudioProjects\StockQuotes\app\src\main\res\values\dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_vertical_margin" >5dp
+                </dimen>
+                <dimen name="stock_list_text_size" >16sp
+                </dimen>
+                <dimen name="activity_horizontal_margin" >5dp
+                </dimen>
+            </file>
+            <file
+                path="C:\Users\SEOMarketing\AndroidstudioProjects\StockQuotes\app\src\main\res\values\strings.xml"
+                qualifiers="" >
+                <string name="yahoo_stock_url" >http://finance.yahoo.com/q?s=
+                </string>
+                <string name="change" >Change:
+                </string>
+                <string name="go_to_website" >Web
+                </string>
+                <string name="missing_stock_symbol" >Enter a Stock Symbol
+                </string>
+                <string name="action_settings" >Settings
+                </string>
+                <string name="app_name" >Get Stock Quotes
+                </string>
+                <string name="stock_days_low" >Days Low:
+                </string>
+                <string name="last_trade_price_only" >Last Price:
+                </string>
+                <string name="cancel" >Cancel
+                </string>
+                <string name="stock_company_name" >Company Name
+                </string>
+                <string name="confirm_action" >Are You Sure?
+                </string>
+                <string name="stock_symbol" >Enter Symbol
+                </string>
+                <string name="ok" >OK
+                </string>
+                <string name="get_stock_quote" >Quote
+                </string>
+                <string name="change_stock_symbol" >Change
+                </string>
+                <string name="delete_all_symbols" >Delete All Symbols
+                </string>
+                <string name="stock_year_high" >Year High:
+                </string>
+                <string name="days_range" >Daily Price Range:
+                </string>
+                <string name="enter_stock_symbol" >Enter
+                </string>
+                <string name="stock_days_high" >Days High:
+                </string>
+                <string name="stock_symbol_list" >Stock Symbols and Quotes
+                </string>
+                <string name="invalid_stock_symbol" >Invalid Stock Symbol
+                </string>
+                <string name="title_activity_stock_info" >StockInfoActivity
+                </string>
+                <string name="stock_year_low" >Year Low:
+                </string>
+            </file>
+            <file
+                path="C:\Users\SEOMarketing\AndroidstudioProjects\StockQuotes\app\src\main\res\values\styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+            </file>
+            <file
+                path="C:\Users\SEOMarketing\AndroidstudioProjects\StockQuotes\app\src\main\res\values-sw720dp-land\dimens.xml"
+                qualifiers="sw720dp-land-v13" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+            <file
+                path="C:\Users\SEOMarketing\AndroidstudioProjects\StockQuotes\app\src\main\res\values-v11\styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="C:\Users\SEOMarketing\AndroidstudioProjects\StockQuotes\app\src\main\res\values-v14\styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+        </source>
+        <source path="C:\Users\SEOMarketing\AndroidstudioProjects\StockQuotes\app\build\generated\res\rs\debug" />
+        <source path="C:\Users\SEOMarketing\AndroidstudioProjects\StockQuotes\app\build\generated\res\generated\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="C:\Users\SEOMarketing\AndroidstudioProjects\StockQuotes\app\src\debug\res" />
+    </dataSet>
+
+</merger>
